@@ -1,0 +1,26 @@
+<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- boxes -->
+  <rect x="50" y="40" width="150" height="60" fill="none" stroke="black" stroke-width="2"/>
+  <text x="70" y="75" font-size="14">Abstract Connectivity</text>
+
+  <rect x="50" y="130" width="150" height="60" fill="none" stroke="black" stroke-width="2"/>
+  <text x="70" y="165" font-size="14">Value Gradient</text>
+
+  <rect x="50" y="220" width="150" height="60" fill="none" stroke="black" stroke-width="2"/>
+  <text x="70" y="255" font-size="14">Direction</text>
+
+  <!-- arrows to Δh -->
+  <defs>
+    <marker id="arrowb" markerWidth="10" markerHeight="10" refx="5" refy="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="black"/>
+    </marker>
+  </defs>
+
+  <line x1="200" y1="70" x2="350" y2="120" stroke="black" stroke-width="2" marker-end="url(#arrowb)"/>
+  <line x1="200" y1="160" x2="350" y2="140" stroke="black" stroke-width="2" marker-end="url(#arrowb)"/>
+  <line x1="200" y1="250" x2="350" y2="160" stroke="black" stroke-width="2" marker-end="url(#arrowb)"/>
+
+  <!-- Δh circle -->
+  <circle cx="380" cy="150" r="40" fill="none" stroke="red" stroke-width="3"/>
+  <text x="360" y="155" font-size="20" fill="red">Δh</text>
+</svg>

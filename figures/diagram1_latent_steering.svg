@@ -1,0 +1,36 @@
+<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- latent manifold ellipse -->
+  <ellipse cx="200" cy="150" rx="120" ry="80" fill="none" stroke="black" stroke-width="2"/>
+  <text x="140" y="60" font-size="14">Latent Manifold</text>
+
+  <!-- h point -->
+  <circle cx="170" cy="150" r="6" fill="blue"/>
+  <text x="155" y="170" font-size="12">h</text>
+
+  <!-- h' point -->
+  <circle cx="240" cy="120" r="6" fill="red"/>
+  <text x="245" y="140" font-size="12">h'</text>
+
+  <!-- steering arrow -->
+  <line x1="170" y1="150" x2="240" y2="120" stroke="red" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- arrow marker -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refx="5" refy="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="red"/>
+    </marker>
+  </defs>
+
+  <!-- vocab space -->
+  <rect x="400" cy="100" width="150" height="100" fill="none" stroke="black" stroke-width="2"/>
+  <text x="420" y="150" font-size="14">Vocabulary Space</text>
+
+  <!-- projection arrow -->
+  <line x1="240" y1="120" x2="400" y2="150" stroke="black" stroke-width="2" marker-end="url(#arrow2)"/>
+
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refx="5" refy="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="black"/>
+    </marker>
+  </defs>
+</svg>
