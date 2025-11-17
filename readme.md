@@ -101,6 +101,49 @@ It is not intended as a full theory or a technical specification.
 If others find value in the idea, they are welcome to explore further.
 
 
+## Origin of the Artificial Intuition Framework
+
+The idea of *artificial intuition* did not arise from any existing theory or
+assumption on the AI side.  
+Rather, it emerged while reflecting on the **conceptual transitions** that
+occurred within my own thinking during conversations with ChatGPT.
+
+When I begin a dialogue, I only loosely set the thematic direction.  
+As I read each response, the structure of my own *semantic manifold
+(the internal organization of meanings and concepts) gradually becomes visible.
+
+Through this process, zones of
+
+strong connectivity, and  
+weaker, more tenuous connectivity (**semantic gaps**)  
+
+naturally differentiate themselves.  
+When I touch such a semantic gap, a momentary **ignition point** occurs—  
+a small but distinct jump in the direction of my thinking.
+
+While reflecting on these ignition points together with ChatGPT,
+I began to sense that **the structure of my own intuitive jumps
+might be conceptually mappable onto the latent space of an AI model**.
+This possibility became the initial spark for formulating the framework
+I now call *artificial intuition*.
+
+The notion of a **latent weak boundary** (a location where direction shifts
+are more likely to occur) is therefore not something derived from observing
+any internal AI mechanism.  
+It is simply a **conceptual correspondence**:  
+if one maps the behavior of my semantic gaps onto an AI’s latent manifold,
+then *a similar kind of structure could, in principle, be posited*.
+
+In this sense, the artificial intuition framework positions the ignition
+structure observed in my own semantic manifold as something that can be
+**hypothetically projected into the latent space of an AI** through a
+co-creative, dialogical process.
+
+Thus, artificial intuition is best understood as a **co-constructed
+hypothetical model**, exploring how—and to what extent—the structures of
+a human semantic manifold and an AI latent manifold **might align**.*
+
+
 ---
 
 # Appendix: Diagrams
