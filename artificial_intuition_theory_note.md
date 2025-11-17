@@ -105,6 +105,9 @@ If others find value in the idea, they are welcome to explore further.
 
 # Appendix: Diagrams
 
+Figure 1. Latent manifold steering (directional perturbation applied to hidden state)
+Figure 2. Components of intuition (connectivity × value × direction → Δh)
+
 ### **Figure 1. Latent Manifold Steering**
 
 ![Latent Manifold Steering: directional perturbation in hidden-state space](./figures/diagram1_latent_steering.svg)
