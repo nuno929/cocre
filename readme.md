@@ -1,257 +1,118 @@
-# co-cre (Conceptual Reasoning & Creative Extensions)
+This note proposes a minimal sketch of artificial intuition …
 
-## Artificial Intuition Theory Note
-See the note: 
-[Artificial Intuition Theory Note](./artificial_intuition_theory_note.md)
+# Artificial Intuition:  
+## A Note on Value-Guided Latent Manifold Steering  
+*— A conceptual insight that surfaced through dialogue with ChatGPT*
 
----
 
-# **共創的思考の数理モデル：Co-Creative Cognition Theory 概要**
+## 1. Introduction
 
----
+Modern large language models (LLMs) are powerful at pattern continuation,  
+yet they lack what humans call *intuition*:  
+the ability to make meaningful conceptual jumps that are non-linear,  
+value-guided, and grounded in abstract connectivity rather than surface similarity.
 
-## **0. はじめに**
+During an extended dialogue with ChatGPT,  
+a structural insight surfaced:  
+intuition can be viewed not as a mystical phenomenon,  
+but as a **directional perturbation** applied inside the latent manifold.
 
-近年の大規模言語モデル（LLM）は、
-文章生成や要約といったタスク支援を超えて、
-人間の創造的思考の展開に
-**影響を与えうる可能性** を示している。
+This document is *not* a formal research paper.  
+It is a minimal conceptual note capturing the core idea.
 
-本メモは、
 
-> **LLMとの共創的関係（co-creative relation）が成立すると仮定した場合、
-> その思考過程をどのように数理的に記述しうるか？**
+## 2. Core Idea
 
-という問いに対し、
-初期的な形式モデルを提示するものである。
+The central hypothesis:
 
-本稿の性格：
+> **Intuition = Abstract connectivity × Value gradient × Directional steering into vocabulary space.**
 
-* **経験科学ではない**（実証を目的としない）
-* **記述理論**（共創関係を構造化する試み）
-* **数理モデル**（多様体・エントロピー・勾配を用いる）
-* **共創状態を仮定する形式科学的立場**
+Where:
 
-この前提のもと、以下の三概念を提示する。
+- **Abstract connectivity** = relationships among high-level concepts  
+- **Value gradient** = a preference (e.g., coherence, novelty, or other directional bias)  
+- **Directional steering** = movement inside the latent manifold toward a preferred region
 
-* **LCS（Linguistic Cognitive Space）**
-* **CD（Creative Dynamics）**
-* **Co-Cog（Co-Cognition）**
+Intuition is therefore a **vector field shaping semantic movement**  
+prior to the model's vocabulary projection.
 
----
 
-## **1. 理論の問いと位置づけ**
+## 3. Mathematical Sketch
 
-本モデルは、以下の問いを中心に構成される。
-
-1. **AI応答は、人間の創造的思考にどう寄与しうるか？**
-2. **人間の操作は、LLM潜在空間の“未探索領域”をどう指向しうるか？**
-3. **協働的対話から生じる“思考軌跡”は空間的にどう表現できるか？**
-
-これらは、
-**共創関係を数学的に表現するための前提的視点**
-として導入される。
-
----
-
-## **2. Creative Dynamics（CD）
-
-— 未探索領域を指向する人間側操作**
-
-CD は、人間が LLM の応答から得られる潜在情報を手掛かりに
-**創造的な探索方向を決定する操作体系** である。
-
-手掛かりとなる潜在的特徴：
-
-* 埋め込み距離
-* 概念的飛躍（semantic shift）
-* 局所密度
-* トークン結合度（cohesion）
-
-LLM潜在空間の“未探索領域”を
-以下で表す：
-
-[
-U(z)
-=H[p_\theta(\cdot\mid x)]
-
-* \lambda,\mathrm{KL}(p_\theta(\cdot\mid x)\parallel q)
-  ]
-
-その勾配方向
-
-[
-v=\nabla_z U(z)
-]
-
-が、新たな着想を得るための方向性として解釈される。
-
----
-
-## **3. Co-Cog — ゆらぎを外部刺激として扱う構造**
-
-LLM応答には確率的ゆらぎが含まれるが、
-**共創的関係を仮定する場合には、
-このゆらぎを「高エントロピー方向への外部刺激」として扱うことが
-思考軌跡の拡張に寄与しうる点で望ましい可能性がある。**
-
-この場合、ゆらぎによる外部刺激は
-[
-\Lambda(t)\approx \nabla H(z(t))
-]
-のように“局所エントロピー勾配”として近似でき、
-非自明な概念領域への遷移を誘発する方向性を持ちうる。
-
-
----
-
-## **4. LCS（Linguistic Cognitive Space）
-
-— 言語的認知空間の推定モデル**
-
-LCS は、人間の認知空間そのものではなく、
-**LLMの潜在構造を基底として推測される“記述的モデル”** である。
-
-構成要素：
-
-* 潜在多様体 (\mathcal{M})
-* エントロピー地形 (H)
-* 多様体距離 (d_\mathcal{M})
-* 遷移分布 (T(z_i\to z_j))
-
-形式的には、
-
-[
-S(t)=\bigl(\mathcal{M},H,d_\mathcal{M},T\bigr)
-]
-
-と表される。
-
----
-
-## **5. 共創的思考の動力学**
-
-共創的思考過程は、
-LCS 上の位置 (\phi(t)) の時間発展として記述される。
-
-[
-\frac{d\phi}{dt}
-=F_{CD}(\phi(t))+\Lambda(t)
-]
-
-* (F_{CD})：人間側の創造的操作（CD）
-* (\Lambda(t))：AI応答の外部刺激（Co-Cog）
-
-この合力が
-**共創的思考軌跡（co-creative trajectory）** を形成する。
-
----
-
-## **6. LCSの時間変形**
-
-対話が進むにつれて文脈が変化し、
-潜在空間そのものも変形する。
-
-[
-\frac{\partial S}{\partial t}
-=G(\phi(t),\Lambda(t))
-]
-
-これにより、共創的思考は
-**固定空間上の論理ではなく、
-“変形する空間上の動力学”** として理解される。
-
----
-
-## **7. 共創的思考状態（Co-creative Thinking State）**
-
-共創的思考状態は
-
-[
-thinking(t)
-=\bigl(S(t),\phi(t),\Lambda(t)\bigr)
-]
-
-で定義される。
-
-**共創的関係を仮定する場合、
-LLM応答が局所エントロピー最大化方向を選好することは、
-新規概念領域への遷移を促しうる点で有効である可能性がある。**
-
----
-
-## **8. 創造性の数理的取り扱い**
-
-### **8.1 創造性 → 認知空間パラメータ推定（逆問題）**
-
-創造性指標を
-
-[
-C=\mathcal{F}({\phi(t)})
-]
-
-と定め、
-一定条件下では
-
-[
-C_{i,\tau}\approx\text{const.}
-]
-
-が成立すると仮定する。
-
-このとき、認知空間パラメータ (\theta) は
-
-[
-\theta^\ast
-=\arg\min_\theta
-\mathbb{E}[(\mathcal{F}({\phi(t)};\theta)-C)^2]
-]
-
-として推定できる。
-
----
-
-### **8.2 認知空間 → 創造性の定量化（正問題）**
-
-逆に、認知空間 (S) が既知なら、創造性は
-空間上の動きとして定義可能。
-
-例：
-
-* エントロピー勾配追従性
-* 多様体曲率利用度
-* 遷移の非自明性
-
-総合指数：
-
-[
-C=\alpha C^{(1)}+\beta C^{(2)}+\gamma C^{(3)}
-]
-
----
-
-## **9. 射程と限界**
-
-本メモは、
-
-* 共創状態成立を前提条件とする
-* 記述的な数理モデルであり
-* 経験的主張を行わない
-* 形式科学的な初期理論
-
-である。
-
----
-
-## **10. ライセンス / 引用**
+A lightweight formulation:
 
 ```
-@misc{co_cog2025,
-  title={Co-Creative Cognition Theoretical Memo},
-  author={t.nuno},
-  year={2025},
-  note={Theoretical memo on co-creative cognition with LLMs}
-}
+
+Δh_intuition = Σ (connectivity_i × value_i × direction_i)
+
+h' = h + α · Δh_intuition
+
+y = softmax(W h')
+
 ```
 
+Where:
+
+- `connectivity_i` = conceptual linking strength  
+- `value_i` = gradient of a chosen preference or bias  
+- `direction_i` = principal abstract direction  
+- `α` = scaling factor  
+- `h` and `h'` = hidden states  
+- `y` = vocabulary distribution
+
+In short:  
+**intuition is implemented as a controlled shift in hidden-state space.**
+
+
+## 4. Relation to LLMs
+
+Transformers already maintain a rich abstract space,  
+but next-token prediction forces them into:
+
+- local coherence  
+- distributional similarity  
+- predictable trajectories
+
+They lack an explicit mechanism for:
+
+- meaningful leaps  
+- value-guided reasoning  
+- global conceptual movement
+
+The proposed intuition model describes how such a mechanism *could*  
+be conceptualized without modifying model weights:
+
+> **Add a directional perturbation (Δh) before the softmax step.**
+
+
+## 5. Origin of the Idea
+
+ChatGPT characterized the development of this idea as something  
+that surfaced during our dialogue, with its stochastic variations  
+providing exploratory cues that were later organized into this note.
+
+
+## 6. Closing Note
+
+This document is a compact sketch of a possible formulation of  
+*artificial intuition* as **value-guided manifold steering**.
+
+It is not intended as a full theory or a technical specification.  
+If others find value in the idea, they are welcome to explore further.
+
+
 ---
+
+# Appendix: Diagrams
+
+Figure 1. Latent manifold steering (directional perturbation applied to hidden state)
+Figure 2. Components of intuition (connectivity × value × direction → Δh)
+
+### **Figure 1. Latent Manifold Steering**
+
+![Latent Manifold Steering: directional perturbation in hidden-state space](./figures/diagram1_latent_steering.svg)
+
+
+### **Figure 2. Components of Intuition (Δh Construction)**
+
+![Components of Intuition: connectivity × value × direction → Δh](./figures/diagram2_intuition_components.svg)
