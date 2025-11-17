@@ -1,3 +1,5 @@
+This note proposes a minimal sketch of artificial intuition …
+
 # Artificial Intuition:  
 ## A Note on Value-Guided Latent Manifold Steering  
 *— A conceptual insight that surfaced through dialogue with ChatGPT*
@@ -105,9 +107,9 @@ If others find value in the idea, they are welcome to explore further.
 
 ### **Figure 1. Latent Manifold Steering**
 
-![Latent Steering](./figures/diagram1_latent_steering.svg)
+![Latent Manifold Steering: directional perturbation in hidden-state space](./figures/diagram1_latent_steering.svg)
 
 
 ### **Figure 2. Components of Intuition (Δh Construction)**
 
-![Intuition Components](./figures/diagram2_intuition_components.svg)
+![Components of Intuition: connectivity × value × direction → Δh](./figures/diagram2_intuition_components.svg)

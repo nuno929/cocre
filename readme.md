@@ -1,3 +1,5 @@
+![See artificial_intuition_theory_note.md for full theory](./artificial_intuition_theory_note.md)
+
 ---
 
 # **共創的思考の数理モデル：Co-Creative Cognition Theory 概要**
