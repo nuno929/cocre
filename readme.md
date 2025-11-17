@@ -1,4 +1,4 @@
-See the blow note: 
+See the note: 
 [Artificial Intuition Theory Note](./artificial_intuition_theory_note.md)
 
 ---
