@@ -1,3 +1,6 @@
+# co-cre (Conceptual Reasoning & Creative Extensions)
+
+## Artificial Intuition Theory Note
 See the note: 
 [Artificial Intuition Theory Note](./artificial_intuition_theory_note.md)
 
