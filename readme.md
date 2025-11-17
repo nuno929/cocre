@@ -1,4 +1,5 @@
-[See artificial_intuition_theory_note.md for English theory](./artificial_intuition_theory_note.md)
+See the blow note: 
+[Artificial Intuition Theory Note](./artificial_intuition_theory_note.md)
 
 ---
 
